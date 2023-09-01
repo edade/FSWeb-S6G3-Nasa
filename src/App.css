@@ -1,9 +1,10 @@
 .App {
-  text-align: center;
   width: 50%;
   margin: auto;
-  padding: 3%;
-  border: 2px solid black;
+}
+
+body {
+  background-color: black;
 }
 
 .detail-row {
@@ -21,16 +22,16 @@ iframe {
   height: 500px;
 }
 
-header img {
-  height: 50px;
-  width: 50px;
-}
-
 header {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
+}
+
+header img {
+  height: 50px;
+  width: 50px;
 }
 
 .App-logo {
