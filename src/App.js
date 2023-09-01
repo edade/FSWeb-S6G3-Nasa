@@ -25,7 +25,7 @@ function App() {
         `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2023-08-27&end_date=2023-08-31`
       )
       .then((repsonse) => {
-        setApodData(repsonse.data[0]);
+        setApodData(repsonse.data);
       })
       .catch((error) => {
         console.error("APOD Data alınamadı", error);
